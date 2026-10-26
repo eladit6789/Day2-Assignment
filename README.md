@@ -25,12 +25,23 @@ The molar concentration is calculated from the DNA mass concentration and the mo
 
 The number of DNA molecules is calculated by converting the total DNA mass to grams, calculating the number of moles, and multiplying by Avogadro's constant.
 
+## How to Run
 
+Make sure Python is installed. Open a terminal in the `day02` directory and run:
+
+```bash
+python dna_calculator.py
+```
+
+On some Windows systems, use:
+
+```bash
+py dna_calculator.py
 ```
 
 ## Sample Input
 
-
+```text
 DNA concentration (ng/uL): 50
 DNA fragment length (bp): 1000
 Sample volume (uL): 2
@@ -38,7 +49,7 @@ Sample volume (uL): 2
 
 ## Expected Output
 
-
+```text
 Results:
 Total DNA mass: 100.00 ng
 Molar concentration: 75.76 nM
@@ -55,7 +66,10 @@ AI tool used: ChatGPT by OpenAI.
 
 Purpose: Assistance with selecting a scientific calculation, writing and explaining the Python program, and preparing this README file.
 
+Prompts used:
 
+- "Can you help me create a Python script that performs a well-known calculation in molecular biology?"
+- "How can I run the code in Visual Studio Code?"
+- "Please help me update my assignment according to the assignment requirements, including a README file and AI disclosure."
 
-
-
+The code and documentation should be reviewed and understood by the student before submission.
