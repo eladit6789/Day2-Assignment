@@ -30,7 +30,7 @@ The number of DNA molecules is calculated by converting the total DNA mass to gr
 
 ## Sample Input
 
-```text
+
 DNA concentration (ng/uL): 50
 DNA fragment length (bp): 1000
 Sample volume (uL): 2
@@ -38,7 +38,7 @@ Sample volume (uL): 2
 
 ## Expected Output
 
-```text
+
 Results:
 Total DNA mass: 100.00 ng
 Molar concentration: 75.76 nM
